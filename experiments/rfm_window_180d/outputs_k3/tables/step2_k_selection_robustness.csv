@@ -1,0 +1,7 @@
+window,seed,k_elbow_kneedle,k_elbow_2nd_diff,k_largest_PS>=0.8,elbow_k_is_replicable,elbow_k_min_share_ok,best Silhouette (k≥3),best DBI (k≥3),best CH (k≥3)
+S1–S5,42,4,3,7,False,True,3,3,3
+S1–S5,7,4,3,7,False,True,3,3,3
+S1–S5,2024,4,3,7,False,True,3,3,3
+S1–S3,42,4,3,7,False,True,3,3,5
+S2–S4,42,4,3,7,False,True,3,3,3
+S3–S5,42,4,3,7,False,True,3,3,3

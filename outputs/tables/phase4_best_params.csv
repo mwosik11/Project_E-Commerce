@@ -1,0 +1,7 @@
+model,config,params,val_macro_f1,fold1,fold2,val_accuracy,Δ vs persistence (val)
+LogReg,A,"{'C': 0.01, 'class_weight': None}",0.6133043741771307,0.5855437684447526,0.6410649799095086,0.8025829424446458,-0.03155697659419687
+LogReg,B,"{'C': 0.01, 'class_weight': None}",0.6102077864241544,0.5828969323939511,0.6375186404543576,0.7975998569145468,-0.03465356434717315
+RandomForest,A,"{'max_depth': 8, 'min_samples_leaf': 1, 'max_features': 'sqrt', 'class_weight': 'balanced'}",0.6338664380863719,0.607167455615415,0.6605654205573289,0.81924749360058,-0.010994912684955671
+RandomForest,B,"{'max_depth': 16, 'min_samples_leaf': 10, 'max_features': 'sqrt', 'class_weight': 'balanced'}",0.6340050966990577,0.6052574030834772,0.6627527903146382,0.8115806903873115,-0.010856254072269866
+XGBoost,A,"{'n_estimators': 500, 'max_depth': 3, 'learning_rate': 0.1, 'min_child_weight': 5, 'class_weight': 'balanced'}",0.6387568024373367,0.6179814710368379,0.6595321338378354,0.8046888372191419,-0.006104548333990878
+XGBoost,B,"{'n_estimators': 500, 'max_depth': 5, 'learning_rate': 0.03, 'min_child_weight': 5, 'class_weight': 'balanced'}",0.636479249888797,0.607889783800238,0.6650687159773562,0.8099895378378326,-0.008382100882530552

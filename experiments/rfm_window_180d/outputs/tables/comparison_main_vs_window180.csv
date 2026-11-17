@@ -1,0 +1,25 @@
+area,measure,cumulative RFM (main),180-day window RFM
+States,Number of states k (rule: Elbow/Kneedle majority),4,4
+States,Kneedle votes (6 runs),"k=4: 4/6, k=5: 2/6",k=4: 6/6
+States,Second-difference votes,k=4: 6/6,k=3: 6/6
+States,Best Silhouette among k ≥ 3,k=4: 6/6,k=3: 6/6
+States,Active High-Value share S1 → S8,7% → 23%,17% → 14%
+States,Dormant Low-Value share S1 → S8,38% → 36%,0% → 41%
+States,"Silhouette of frozen states, S6–S8",0.34–0.38,0.58–0.65
+States,"ARI frozen vs re-fit, S6–S8",0.66–0.81,0.84–0.97
+Transitions,Customers keeping their state per quarter,72%,58%
+Transitions,Zero cells in transition matrix,2,0
+Transitions,G-test 1st vs 2nd order (total),"G = 669, df = 24","G = 379, df = 33"
+Prediction,Persistence: test Macro-F1 / accuracy,0.649 / 0.809,0.561 / 0.680
+Prediction,Best classifier: test Macro-F1,0.657 (XGBoost B),0.588 (RandomForest A)
+Prediction,"Best − persistence, 95% CI",+0.008 [-0.004; +0.020] (XGBoost B); p Holm 0.712,+0.027 [+0.015; +0.039] (RandomForest A); p Holm 0.002
+Prediction,Classifiers significantly better than persistence,0 of 6,4 of 6
+Prediction,State changers predicted correctly,17%–27%,38%–41%
+Hypotheses,"H1 (history helps, Holm)",supported for LogReg,not supported
+Hypotheses,"H2 (gain differs, Holm)",not supported,supported: Δ_RandomForest − Δ_LogReg
+Decision,Lost revenue from customers who downgrade,19%,32%
+Decision,Lost revenue from customers keeping their state,79%,63%
+Decision,L_stop captured at top 10%: value only,43.8%,43.8%
+Decision,L_stop captured at top 10%: state-model risk × value,43.0%,45.3%
+Decision,L_stop captured at top 10%: stop-model risk × value,60.5%,61.0%
+Decision,"Max profit u = 10%, c = £10: state model / stop model","£397 / £1,331","£893 / £1,609"

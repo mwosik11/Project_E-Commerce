@@ -1,0 +1,7 @@
+,value
+train rows (all customers),12513.0
+"train rows (history-eligible, Phase 4)",8608.0
+test rows (all customers),10408.0
+test rows (history-eligible),8983.0
+"Recent share of targets, all test rows",0.05985780169100692
+"Recent share of targets, history-eligible",0.0430813759323166

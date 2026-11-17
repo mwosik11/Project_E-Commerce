@@ -1,0 +1,37 @@
+u,c,strategy,best_frac,best_profit
+0.05,2,Value only,0.17,1061.9039075191113
+0.05,2,Segment risk × value,0.19,951.0800037326799
+0.05,2,State-model risk × value,0.05,910.7598141125181
+0.05,2,Stop-model risk × value,0.115,1970.6662304407546
+0.05,10,Value only,0.0,0.0
+0.05,10,Segment risk × value,0.0,0.0
+0.05,10,State-model risk × value,0.005,101.96547151218351
+0.05,10,Stop-model risk × value,0.005,187.74206133540383
+0.05,25,Value only,0.0,0.0
+0.05,25,Segment risk × value,0.0,0.0
+0.05,25,State-model risk × value,0.0,0.0
+0.05,25,Stop-model risk × value,0.0,0.0
+0.1,2,Value only,0.305,6480.3933809125665
+0.1,2,Segment risk × value,0.31,6450.593808528429
+0.1,2,State-model risk × value,0.32,6358.792991519351
+0.1,2,Stop-model risk × value,0.215,6986.811027532251
+0.1,10,Value only,0.0,0.0
+0.1,10,Segment risk × value,0.0,0.0
+0.1,10,State-model risk × value,0.01,796.3128995461063
+0.1,10,Stop-model risk × value,0.025,1319.3584507883425
+0.1,25,Value only,0.0,0.0
+0.1,25,Segment risk × value,0.0,0.0
+0.1,25,State-model risk × value,0.0,0.0
+0.1,25,Stop-model risk × value,0.005,150.48412267080766
+0.2,2,Value only,0.34,18746.260103320594
+0.2,2,Segment risk × value,0.34500000000000003,18740.123930363116
+0.2,2,State-model risk × value,0.34500000000000003,18715.55871416627
+0.2,2,Stop-model risk × value,0.33,18902.11129837554
+0.2,10,Value only,0.055,2093.858430482561
+0.2,10,Segment risk × value,0.08,1493.0201743908256
+0.2,10,State-model risk × value,0.015,2892.9381880076453
+0.2,10,Stop-model risk × value,0.065,6064.630614548494
+0.2,25,Value only,0.0,0.0
+0.2,25,Segment risk × value,0.0,0.0
+0.2,25,State-model risk × value,0.01,1142.6257990922127
+0.2,25,Stop-model risk × value,0.015,1876.4159394409935

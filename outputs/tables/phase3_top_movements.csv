@@ -1,0 +1,11 @@
+movement,count,share of all movements,P(to | from)
+Recent Low-Frequency  →  Lapsing Mid-Value,1707,0.21544869367663763,0.4621007038440715
+Lapsing Mid-Value  →  Active High-Value,1361,0.17177836678026,0.15766913809082483
+Recent Low-Frequency  →  Dormant Low-Value,1152,0.145399469897766,0.3118570655116405
+Dormant Low-Value  →  Lapsing Mid-Value,1022,0.12899154360721948,0.091233708266381
+Dormant Low-Value  →  Recent Low-Frequency,940,0.11864192856241322,0.08391358685948938
+Active High-Value  →  Lapsing Mid-Value,601,0.0758551053893727,0.13442182956832924
+Lapsing Mid-Value  →  Recent Low-Frequency,392,0.049476208506878706,0.04541241890639481
+Lapsing Mid-Value  →  Dormant Low-Value,371,0.046825697336867346,0.04297961075069509
+Recent Low-Frequency  →  Active High-Value,351,0.044301400984475575,0.09501894964807796
+Dormant Low-Value  →  Active High-Value,26,0.0032815852581093022,0.002321014104624174

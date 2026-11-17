@@ -1,0 +1,7 @@
+step,rows,customers
+0. raw (both sheets),1067371,5942
+1. drop exact duplicates,1033036,5942
+2. drop missing CustomerID,797885,5942
+3. keep product StockCodes,794223,5876
+"4a. purchase lines (qty>0, price>0)",776577,5852
+4b. cancellation lines,17586,2444

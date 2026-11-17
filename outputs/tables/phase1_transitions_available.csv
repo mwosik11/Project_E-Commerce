@@ -1,0 +1,8 @@
+transition,origins at t,with target at t+1,history-eligible (seen at t-2),split
+S1→S2,2132,2132,0,train
+S2→S3,2946,2946,0,train
+S3→S4,3531,3530,2132,train
+S4→S5,4303,4303,2946,train
+S5→S6,4680,4680,3530,train
+S6→S7,5007,5007,4303,test
+S7→S8,5404,5401,4680,test

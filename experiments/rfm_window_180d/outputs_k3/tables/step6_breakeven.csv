@@ -1,0 +1,10 @@
+strategy,c,break_even_u
+Value only,2,0.03285178770995698
+Value only,10,0.16425893854978493
+Value only,25,0.4106473463744623
+State-model risk × value,2,0.03600336275464151
+State-model risk × value,10,0.18001681377320755
+State-model risk × value,25,0.4500420344330189
+Stop-model risk × value,2,0.02401177789788983
+Stop-model risk × value,10,0.12005888948944915
+Stop-model risk × value,25,0.30014722372362285

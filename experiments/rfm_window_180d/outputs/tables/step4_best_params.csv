@@ -1,0 +1,7 @@
+model,config,params,val_macro_f1,fold1,fold2,persistence_val
+LogReg,A,"{'C': 0.1, 'class_weight': None}",0.5319870198757162,0.509003888814045,0.5549701509373874,0.5169709005430457
+LogReg,B,"{'C': 1.0, 'class_weight': None}",0.5297224530017174,0.4997912658095604,0.5596536401938744,0.5169709005430457
+RandomForest,A,"{'max_depth': 8, 'min_samples_leaf': 10, 'max_features': 'sqrt', 'class_weight': 'balanced'}",0.5652714600009444,0.5538586382793311,0.5766842817225577,0.5169709005430457
+RandomForest,B,"{'max_depth': None, 'min_samples_leaf': 10, 'max_features': 'sqrt', 'class_weight': 'balanced'}",0.5670554148968305,0.5576048699384846,0.5765059598551765,0.5169709005430457
+XGBoost,A,"{'n_estimators': 200, 'max_depth': 5, 'learning_rate': 0.1, 'min_child_weight': 5, 'class_weight': 'balanced'}",0.5489940844934706,0.5306422449138679,0.5673459240730734,0.5169709005430457
+XGBoost,B,"{'n_estimators': 500, 'max_depth': 3, 'learning_rate': 0.1, 'min_child_weight': 5, 'class_weight': 'balanced'}",0.5534584178374993,0.5422047963743464,0.5647120393006521,0.5169709005430457

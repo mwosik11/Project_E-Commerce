@@ -1,0 +1,13 @@
+measure,"cumulative RFM, k = 4 (main)","180-day window, k = 4","180-day window, k = 3"
+"Silhouette of frozen states, S6–S8",0.34–0.38,0.58–0.65,0.62–0.66
+"ARI frozen vs re-fit, S6–S8",0.66–0.81,0.84–0.97,0.93–0.98
+Customers keeping their state per quarter,72%,58%,65%
+Zero cells in the transition matrix,2,0,0
+Persistence: test Macro-F1,0.649,0.561,0.681
+Best classifier − persistence (95% CI),"+0.008 [-0.004, +0.020] (XGBoost B)","+0.027 [+0.015, +0.039] (RandomForest A)","+0.021 [+0.011, +0.031] (LogReg B)"
+Classifiers significantly better than persistence,0 of 6,4 of 6,5 of 6
+State changers predicted correctly,17%–27%,38%–41%,34%–38%
+H1 supported (Holm),LogReg,no,XGBoost
+H2 supported (Holm),no,Δ_RandomForest − Δ_LogReg,no
+Share of lost revenue from downgrades,19%,32%,26%
+L_stop captured at top 10%: state model / stop model,43.0% / 60.5%,45.3% / 61.0%,40.0% / 59.9%

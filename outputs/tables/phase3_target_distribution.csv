@@ -1,0 +1,5 @@
+,share,share,share,share,rows,rows,rows,rows
+,0 Dormant Low-Value,1 Lapsing Mid-Value,2 Recent Low-Frequency,3 Active High-Value,0 Dormant Low-Value,1 Lapsing Mid-Value,2 Recent Low-Frequency,3 Active High-Value
+split,,,,,,,,
+test,0.35177557608816656,0.3521095402426806,0.0430813759323166,0.25303350773683625,3160,3163,387,2273
+train,0.30088289962825276,0.4117100371747212,0.03578066914498141,0.2516263940520446,2590,3544,308,2166

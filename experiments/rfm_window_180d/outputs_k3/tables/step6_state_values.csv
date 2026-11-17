@@ -1,0 +1,4 @@
+state,V_revenue_per_30d,downgrade_rate_train
+Inactive (no purchase in 180 days),0.0001008989176297927,0.0
+Occasional,61.04722621005115,0.2940207883091489
+Active,520.2260831298385,0.4142614601018676

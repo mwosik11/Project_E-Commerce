@@ -1,0 +1,3 @@
+fold,train origins,validation origin,states fitted on,train rows,validation rows,persistence Macro-F1,majority Macro-F1
+1,S3,S4,S1–S4,2132,2946,0.6447111465784573,0.14523121387283236
+2,S3+S4,S5,S1–S5,5078,3530,0.6450115549641978,0.14198782961460446

@@ -1,0 +1,7 @@
+metric,value
+AUC P(stop) (customers with revenue),0.7626143217597448
+Observed stop rate,0.34368
+R² regression,0.5768658261153593
+MAE regression (£/30 days),114.03607925210075
+R² benchmark 'next quarter = this quarter',0.6968189649754702
+MAE benchmark 'next quarter = this quarter',111.23590961006721

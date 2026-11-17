@@ -1,0 +1,7 @@
+,value
+target,1 if the customer had revenue in the quarter ending at t and none in the next quarter
+training rows,"3,996 (history-eligible train origins S3–S5 with revenue > 0)"
+positive rate (train),37.2%
+test rows with revenue,"3,125"
+positive rate (test),34.4%
+hyperparameters,"400 trees, depth 4, learning rate 0.05, subsample 0.8, colsample 0.8 (fixed, not tuned)"
